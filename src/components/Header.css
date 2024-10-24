@@ -1,0 +1,50 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logoDS{
+    width: 253px;
+    height: 44px;
+
+}
+.search-bar{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+    position: relative;
+}
+.search-input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius:  5px;
+    background-color: #F5F5F5;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.link-cadastro{
+    margin-right: 16px;
+    color: #474747;
+}
+.btn-entrar{
+    background-color: #C92071;
+    color: white;
+    width: 114px;
+    right: 40px;
+    border-radius: 8px;
+    padding: 10px 5px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    
+}
