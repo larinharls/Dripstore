@@ -5,9 +5,29 @@ import './Header.css'
 const Header = () => {
     return (
         <header className="header">
-            <div className="logo-container">
-                <img src='/logoDS.png' alt="Logo Digital Store" className="logoDS">
-                </img> 
+            <div className="logo">
+                <div className="line flex align center justify-between container">
+                    <div class="header-menu" data-toggle="overlay-shadow" data-target="#menu-mobile">
+                        <a className="logo" href=""></a>
+                        <img src="/logoDS.png" alt="Logo Digital Store" width={200} height={36}></img>
+                    <form className="header-search" action="" method="get">
+                        <input type="text" name="loja" />
+                        <input className="input-search" placeholder="Pesquisar produto...">
+                        </input>
+
+                    </form>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
             </div>
             <div className="search-bar">
                 <input type="text" className="search-input" placeholder="Pesquisar produto...">
@@ -26,13 +46,13 @@ const Header = () => {
                     <li><a className="link" href="">Produtos</a></li>
                     <li><a className="link" href="">Categorias</a></li>
                     <li><a className="link" href="">Meus pedidos</a></li>
-                </ul>   
+                </ul>
             </div>
 
             <div className="carousel">
                 <div className="text-carousel">
                     <p>Melhores ofertas personalizadas</p>
-                    <h1>Queima de estoque Nike <img src="/fire.jpg"/></h1>
+                    <h1>Queima de estoque Nike <img src="/fire.jpg" /></h1>
                 </div>
             </div>
             <div className="description-carousel">
@@ -47,5 +67,9 @@ const Header = () => {
         </header>
     )
 }
+
+
+
+
 
 export default Header
