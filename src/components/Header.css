@@ -1,4 +1,4 @@
-.Header{
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,38 +6,24 @@
     background-color: white;
     border-bottom: 1px solid #e0e0e0;
 }
-.logo-container{
-    display: flex;
-   
-}
-.logoDS{
-    width: 253px;
-    height: 44px;
 
-}
-.search-bar{
-    display: flex;
-    flex-grow: 1;
-    margin: 0 20px;
-    position: relative;
-}
-.search-input{
+.input-search{
     width: 100%;
     padding: 10px;
     border: 1px solid transparent;
     border-radius:  5px;
     background-color: #F5F5F5;
 }
-.login{
+.login-options{
     display: flex;
     align-items: center;
 }
-.link-cadastro{
+.register-link{
     margin-right: 16px;
     color: #474747;
     cursor: pointer;
 }
-.btn-entrar{
+.button-enter{
     width: 114px;
     height: 40px;
     gap: 0px;
@@ -48,17 +34,13 @@
     border: none;
     cursor: pointer;
 }
-.icon-carrinho{
-    cursor: pointer;
-}
-.menu{
+.nav{
     padding-top: 40px;
     padding-left: 27px;
     display: flex; 
 }
 .menu-nav{
     display: flex;
-    justify-content: space-between;
     width: 423px;
     height: 29px;
     top: 134px;
@@ -80,7 +62,7 @@
     overflow: hidden;
     margin: auto;
 }
-.btn-offer{
+.button-offer{
     width: 220px;
     height: 48px;
     border-radius: 8px;
