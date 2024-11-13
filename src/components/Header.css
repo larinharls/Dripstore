@@ -1,15 +1,10 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    border-bottom: 1px solid #e0e0e0;
+ .header{
+    padding-top: 10px;
 }
 
 .input-search{
-    width: 100%;
-    padding: 10px;
+    width: 400px;
+    height: 40px;
     border: 1px solid transparent;
     border-radius:  5px;
     background-color: #F5F5F5;
@@ -54,6 +49,14 @@
 .link{
     color: #474747;
     cursor: pointer;
+}
+
+.box-slide{
+    background-color: #F5F5F5;
+}
+
+.title{
+    color: orange;
 }
 .carousel{
     position: relative;
