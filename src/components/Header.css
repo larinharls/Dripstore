@@ -3,7 +3,7 @@
 }
 
 .input-search{
-    width: 400px;
+    width: 600px;
     height: 40px;
     border: 1px solid transparent;
     border-radius:  5px;
@@ -31,9 +31,10 @@
 }
 .nav{
     padding-top: 40px;
-    padding-left: 27px;
+    padding-left: 120px;
     display: flex; 
 }
+
 .menu-nav{
     display: flex;
     width: 423px;
@@ -51,7 +52,7 @@
     cursor: pointer;
 }
 
-.box-slide{
+.carousel{
     background-color: #F5F5F5;
 }
 

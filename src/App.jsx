@@ -2,7 +2,7 @@ import React from "react"
 import './App.css'
 import Header from "./components/Header"
 import Nav from "./components/Nav"
-import BoxSlide from "./components/BoxSlide"
+import BoxSlide from "./components/Carousel"
 
 function App() {
   return (
