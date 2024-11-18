@@ -16,7 +16,7 @@ const Carousel = () => {
               Consequat culpa exercitation mollit nisi excepteur do<br />
               do tempor laboris eiusmod irure consectetur.
             </p>
-            <button className="btn btn-lg text-white fw-bold" style={{ backgroundColor: "#D30077" }}>
+            <button className="button-enter btn btn-secondary " style={{ backgroundColor: "#c92071"}}>
               Ver ofertas
             </button>
           </div>

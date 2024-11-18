@@ -3,6 +3,7 @@ import './App.css'
 import Header from "./components/Header"
 import Nav from "./components/Nav"
 import BoxSlide from "./components/Carousel"
+import Card from "./components/Card"
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Nav />
       <BoxSlide />
+      <Card />
     </div>
 
   )
