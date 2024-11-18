@@ -59,13 +59,7 @@
 .title{
     color: orange;
 }
-.carousel{
-    position: relative;
-    width: 100%;
-    max-width: 1440px;
-    overflow: hidden;
-    margin: auto;
-}
+
 .button-offer{
     width: 220px;
     height: 48px;
