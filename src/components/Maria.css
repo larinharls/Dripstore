@@ -1,0 +1,16 @@
+.conteiner {
+    background-color: #D8E3F2;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    display: inline-block;
+    }
+
+    
+.imgTenis{
+    width: 500px;
+    background-image: linear-gradient(to bottom, #4200FF40, #FFFFFF00);
+    border-radius: 400px 400px 0px 0px;
+    padding-top: 40px;
+    margin-bottom: 100px;
+  }
