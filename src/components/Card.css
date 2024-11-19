@@ -1,11 +1,11 @@
-.conteiner {
+.Card {
     background-color: #D8E3F2;
     border-radius: 10px;
     margin: 10px;
     overflow: hidden;
-    display: inline-block;
+    justify-content: space-around;
+    display: list-item;
     }
-
     
 .imgTenis{
     width: 500px;
@@ -14,3 +14,25 @@
     padding-top: 40px;
     margin-bottom: 100px;
   }
+
+  .linkComprar {
+    color: #C92071;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .desconto {
+    background-color: #E7FF86;
+    border-radius: 20px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #474747;
+    font-family: "Inter", sans-serif;
+  }
+

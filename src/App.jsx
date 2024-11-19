@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Nav from "./components/Nav"
 import BoxSlide from "./components/Carousel"
 import Card from "./components/Card"
+import Oferta from "./components/Oferta"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Nav />
       <BoxSlide />
       <Card />
+      <Oferta/>
     </div>
 
   )
