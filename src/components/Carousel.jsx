@@ -7,38 +7,53 @@ const Carousel = () => {
       <div className="container py-5">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h1 className="text-warning fs-6 mb-2">Melhores ofertas personalizadas</h1>
-            <h2 className="fs-1 fw-bold">
-              Queima de<br />estoque Nike
-              <img src="/fire.png" className="ms-2" alt="ícone de fogo" style={{ width: "50px", height: "50px" }} />
-            </h2>
-            <p className="mb-4" style={{ color: '#474747' }}>
-              Consequat culpa exercitation mollit nisi excepteur do<br />
-              do tempor laboris eiusmod irure consectetur.
-            </p>
-            <button className="button-enter btn btn-secondary " style={{ backgroundColor: "#c92071"}}>
-              Ver ofertas
-            </button>
+            <div className="title">
+              <h1 className="fs-6 mb-2">Melhores ofertas personalizadas</h1>
+            </div>
+            <div className="announcement">
+              <h2 className="fs-1 fw-bold">
+                Queima de<br />estoque Nike
+                <img src="/fire.png" className="ms-2" alt="ícone de fogo" style={{ width: "50px", height: "50px" }} />
+              </h2>
+            </div>
+            <div className="description">
+              <p className="mb-4" style={{ color: '#474747' }}>
+                Consequat culpa exercitation mollit nisi excepteur do<br />
+                do tempor laboris eiusmod irure consectetur.
+              </p>
+            </div>
+            <div className="button-offers">
+              <button className="button-enter btn btn-secondary " style={{ backgroundColor: "#c92071" }}>
+                Ver ofertas
+              </button>
+            </div>
           </div>
 
           {/* Carrossel */}
-          <div className="col-md-6">
+          <div className="col-md-6 mt-6">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="/tenis-nike.png" className="d-block w-100 img-rotate" alt="Tênis Nike" />
+                <div className="nike1">
+                  <img src="/tenis-nike.png" className="d-block w-100 img-rotate" alt="Tênis Nike" />
+                </div>
               </div>
               <div className="carousel-item">
-                <img src="/tenis-nike2.png" className="d-block w-100 img-rotate" alt="Tênis Nike" />
+                <div className="nike2">
+                  <img src="/tenis-nike2.png" className="d-block w-100 img-rotate" alt="Tênis Nike" />
+                </div>
               </div>
               <div className="carousel-item">
-                <img src="/tenis-nike3.png" className="d-block w-100 img-rotate" alt="Tênis Nike" />
+                <div className="nike3">
+                  <img src="/tenis-nike3.png" className="d-block w-100 img-rotate" alt="Tênis Nike" />
+                </div>
               </div>
             </div>
-
-            <div className="d-flex justify-content-center mt-4">
-              <span className="dot active"></span>
-              <span className="dot"></span>
-              <span className="dot"></span>
+            <div className="d-flex">
+              <div className="dots-carousel">
+                <span className="dot active"></span>
+                <span className="dot"></span>
+                <span className="dot"></span>
+              </div>
             </div>
 
             {/* Controles de navegação */}

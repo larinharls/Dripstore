@@ -7,9 +7,11 @@ const Header = () => {
         <header className="header">
             <div className="header-bg">
                 <div className="line d-flex align-items-center justify-content-between container">
-                    <a className="flex items-center" href="">
-                        <img src="/logoDS.png" alt="Logo Digital Store" width={200} height={36} />
-                    </a>
+                    <div className="logo-ds">
+                        <a className="flex items-center" href="">
+                            <img src="/logoDS.png" alt="Logo Digital Store" width={200} height={36} />
+                        </a>
+                    </div>
                     <form className="header-search-wrapper d-flex position-relative" action="" method="get">
                         <input className="input-search form-control" type="text" placeholder="Pesquisar produto..." />
                         <button className="button-search position-absolute end-0 top-50 translate-middle-y text-muted border-0 bg-transparent" type="submit">
@@ -18,10 +20,10 @@ const Header = () => {
                     </form>
                     <div className="login-options d-flex">
                         <div className="register">
-                            <a href="#" className="register-link">Cadastre-se</a>
+                            <a href="#" className="register-link" style={{ color: '#474747' }}> Cadastre-se</a>
                         </div>
-                        <div className="enter">
-                            <button className="button-enter btn btn-secondary">Entrar</button>
+                        <div className="button-enter">
+                            <button className="button-enter btn"> Entrar</button>
                         </div>
                     </div>
                     <a className="cart-toggle" href="" title="cart">
