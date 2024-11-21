@@ -2,9 +2,10 @@ import React from "react"
 import './App.css'
 import Header from "./components/Header"
 import Nav from "./components/Nav"
-import BoxSlide from "./components/Carousel"
 import Card from "./components/Card"
 import Oferta from "./components/Oferta"
+import ProductCard from "./components/ProductCard"
+import Carousel from "./components/Carousel"
 import Footer from "./components/Footer"
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     <div className="header">
       <Header />
       <Nav />
-      <BoxSlide />
+      <Carousel/>
       <Card />
+      <ProductCard />
       <Oferta/>
       <Footer/>
     </div>
