@@ -2,7 +2,6 @@ import React from "react"
 import './App.css'
 import Header from "./components/Header"
 import Nav from "./components/Nav"
-import BoxSlide from "./components/Carousel"
 import Card from "./components/Card"
 import Oferta from "./components/Oferta"
 import ProductCard from "./components/ProductCard"
@@ -17,6 +16,7 @@ function App() {
       <Card />
       <ProductCard />
       <Oferta/>
+      <Footer/>
     </div>
 
   )

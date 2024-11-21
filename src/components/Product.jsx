@@ -10,7 +10,8 @@ function Product(props) {
         </div>
         <div>
           <h3>{props.modelo}</h3>
-          <h3>R$ {props.preco}</h3>
+          <h3>R$ {props.precoDesconto} R$ {props.preco}</h3>
+          
         </div>
       </div>
     </>

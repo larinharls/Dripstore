@@ -1,47 +1,56 @@
 import React from "react";
 import './ProductCard.css';
 import Product from "./Product";
+import './Product.module.css'
 
 function ProductCard() {
   const produtos = [
     {
-      modelo: "adidas",
+      modelo: "Air Max",
       preco: 299,
+      precoDesconto: 149.9,
       imagem: "/AirMax.jpg",
     },
     {
-      modelo: "adidas",
+      modelo: "Nike PRM",
       preco: 299,
+      precoDesconto: 149,
       imagem: "/NikePRM.jpg",
     },
     {
-      modelo: "adidas",
+      modelo: "Nike SBI shod",
       preco: 299,
+      precoDesconto: 149,
       imagem: "/NikeSB.jpg",
     },
     {
-      modelo: "adidas",
+      modelo: "Nike SB Blazer",
       preco: 299,
-      imagem: "/AirJordan.jpg",
+      precoDesconto: 149,
+      imagem: "/NikeSBBlazer.jpg",
     },
     {
-      modelo: "adidas",
+      modelo: "Nike SB Bruin",
       preco: 299,
+      precoDesconto: 149,
       imagem: "/NikeSBIshod.jpg",
     },
     {
-      modelo: "adidas",
+      modelo: "Air Jordan",
       preco: 299,
-      imagem: "/NikeSBBlazer.jpg",
+      precoDesconto: 149,
+      imagem: "/AirJordan.jpg",
     },
     {
       modelo: "Nike SB Ishod",
       preco: 299,
+      precoDesconto: 1499,
       imagem: "/NikeSBIshod.jpg",
     },
     {
       modelo: "Nike SB Zoom",
       preco: 299,
+      precoDesconto: 149,
       imagem: "/NikeSBZoom.jpg",
     },
   ];
@@ -51,7 +60,7 @@ function ProductCard() {
   for (let i = 0; i < produtos.length; i++) {
     const produto = produtos[i];
     CardsElement.push(
-      <Product modelo={produto.modelo} preco={produto.preco} imagem={produto.imagem} />
+      <Product modelo={produto.modelo} preco={produto.preco} imagem={produto.imagem} precoDesconto={produto.precoDesconto}/>
     );
   }
   
