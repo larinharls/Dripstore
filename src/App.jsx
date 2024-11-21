@@ -6,6 +6,7 @@ import Card from "./components/Card"
 import Oferta from "./components/Oferta"
 import ProductCard from "./components/ProductCard"
 import Carousel from "./components/Carousel"
+import Footer from "./components/Footer"
 
 function App() {
   return (

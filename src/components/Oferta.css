@@ -1,3 +1,9 @@
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+
 .oferta{
     color: #C92071;
     font-weight: 700;
@@ -17,4 +23,13 @@
   
   .tituloAir{
     color: #474747;
+  }
+
+  
+  .imgTenis {
+    width: 500px;
+    background-image: linear-gradient(to bottom, #4200FF40, #FFFFFF00);
+    border-radius: 400px 400px 0px 0px;
+    padding-top: 40px;
+    margin-bottom: 100px;
   }
