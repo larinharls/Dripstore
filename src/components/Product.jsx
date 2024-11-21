@@ -1,19 +1,37 @@
 import React from "react"
-import styles from "../components/Product.module.css"
+import styles from "../components/Product.module.css";
+
+
+const handleClick = () => {
+  alert(`Você clicou no produto: ${props.modelo}`);
+
+};
+
 
 function Product(props) {
+
   return (
     <>
-      <div>
+      <div className={styles.conteudoCard}onClick={handleClick}>
         <div>
           <img className={styles.img} src={props.imagem} alt="" />
         </div>
-        <div>
-          <h3>{props.modelo}</h3>
-          <h3>R$ {props.precoDesconto} R$ {props.preco}</h3>
-          
+
+        <span className={styles.preco}>
+        R${props.preco} 
+        </span>
+
+        <span className={styles.precoDesconto}>
+        R${props.precoDesconto}
+        </span>
+
+        <div className={styles.modelo}>
+            <h3>{props.modelo}</h3>
         </div>
+
       </div>
+
+
     </>
   )
 

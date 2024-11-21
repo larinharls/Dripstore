@@ -4,6 +4,9 @@ import Product from "./Product";
 import './Product.module.css'
 
 function ProductCard() {
+
+
+
   const produtos = [
     {
       modelo: "Air Max",
@@ -33,7 +36,7 @@ function ProductCard() {
       modelo: "Nike SB Bruin",
       preco: 299,
       precoDesconto: 149,
-      imagem: "/NikeSBIshod.jpg",
+      imagem: "/NikeSBBruin.jpg",
     },
     {
       modelo: "Air Jordan",
@@ -66,9 +69,15 @@ function ProductCard() {
   
 
   return (
-    <div className="header" style={{display:"flex", maxWidth: "1228px", flexWrap: "wrap", gap: "20px", margin: "auto", justifyContent: "center"}}>
-      {CardsElement}
+    <>
+    <div className="container-fluid">
+      <h3 className="ProdutosEmAlta">Produtos em alta</h3>
+      
+      <div className="header" style={{display:"flex", maxWidth: "1228px", flexWrap: "wrap", gap: "20px", margin: "auto", justifyContent: "center"}}>
+        {CardsElement}
+      </div>
     </div>
+    </>
   );
 }
 
