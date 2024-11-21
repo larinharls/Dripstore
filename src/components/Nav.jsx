@@ -1,6 +1,5 @@
 import React from "react"
 import './Header.css'
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Nav = () => {
     return (

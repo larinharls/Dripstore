@@ -20,7 +20,7 @@ const Header = () => {
                     </form>
                     <div className="login-options d-flex">
                         <div className="register">
-                            <a href="#" className="register-link"> Cadastre-se</a>
+                            <a href="#" className="register-link" style={{ color: '#474747' }}> Cadastre-se</a>
                         </div>
                         <div className="button-enter">
                             <button className="button-enter btn"> Entrar</button>
