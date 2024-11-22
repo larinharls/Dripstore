@@ -2,19 +2,17 @@ import React from "react"
 import styles from "../components/Product.module.css";
 
 
-const handleClick = () => {
-  alert(`Você clicou no produto: ${props.modelo}`);
-
-};
-
-
 function Product(props) {
 
   return (
     <>
-      <div className={styles.conteudoCard}onClick={handleClick}>
+      <div className={styles.conteudoCard}>
         <div>
           <img className={styles.img} src={props.imagem} alt="" />
+        </div>
+        
+        <div className={styles.modelo}>
+            <h3>{props.modelo}</h3>
         </div>
 
         <span className={styles.preco}>
@@ -25,9 +23,6 @@ function Product(props) {
         R${props.precoDesconto}
         </span>
 
-        <div className={styles.modelo}>
-            <h3>{props.modelo}</h3>
-        </div>
 
       </div>
 

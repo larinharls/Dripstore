@@ -1,7 +1,8 @@
 import React from "react";
 import './ProductCard.css';
 import Product from "./Product";
-import './Product.module.css'
+import './Product.module.css';
+import "../components/ProductCard.css";
 
 function ProductCard() {
 
@@ -47,7 +48,7 @@ function ProductCard() {
     {
       modelo: "Nike SB Ishod",
       preco: 299,
-      precoDesconto: 1499,
+      precoDesconto: 149,
       imagem: "/NikeSBIshod.jpg",
     },
     {
@@ -70,12 +71,22 @@ function ProductCard() {
 
   return (
     <>
-    <div className="container-fluid">
-      <h3 className="ProdutosEmAlta">Produtos em alta</h3>
+    <div className="container" >
+
+      <div style={{display: "flex", width: "100%", justifyContent: "space-between"}}>
+        <h4 className="ProdutosEmAlta">Produtos em alta</h4>
+        
+        <div className="VerTodos">
+            <p>Ver mais</p>
+        </div>
+
+      </div>
       
-      <div className="header" style={{display:"flex", maxWidth: "1228px", flexWrap: "wrap", gap: "20px", margin: "auto", justifyContent: "center"}}>
+
+      <div className="header" style={{display:"flex", maxWidth: "1300px", flexWrap: "wrap", alignItems: "center", gap: "20px", justifyContent: "space-between"}}>
         {CardsElement}
       </div>
+
     </div>
     </>
   );

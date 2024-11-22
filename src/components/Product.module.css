@@ -6,7 +6,8 @@
 }
 
 .img {
-  width: 292px;
+  width: 300px;
+  text-align: center;
 }
 
 
@@ -23,4 +24,5 @@
 .precoDesconto {
   color: #1F1F1F;
   font-size: 24px;
+  font-weight: 700;
 }
