@@ -6,13 +6,13 @@ const Carousel = () => {
     <div id="carouselSlide" className="carousel slide" data-bs-ride="carousel">
       <div className="container py-5">
         <div className="row align-items-center">
-          <div className="col-md-6">
+          <div className="texts col-md-6">
             <div className="title">
               <h1 className="fs-6 mb-2">Melhores ofertas personalizadas</h1>
             </div>
-            <div className="announcement">
-              <h2 className="fs-1 fw-bold">
-                Queima de<br />estoque Nike
+            <div className="title2">
+              <h2 className="announcement">
+                <strong>Queima de<br />estoque Nike</strong>
                 <img src="/fire.png" className="ms-2" alt="ícone de fogo" style={{ width: "50px", height: "50px" }} />
               </h2>
             </div>
@@ -23,8 +23,8 @@ const Carousel = () => {
               </p>
             </div>
             <div className="button-offers">
-              <button className="button-enter btn btn-secondary " style={{ backgroundColor: "#c92071" }}>
-                Ver ofertas
+              <button className="button-see btn btn-secondary" style={{ backgroundColor: "#c92071" }}>
+                Ver Ofertas
               </button>
             </div>
           </div>

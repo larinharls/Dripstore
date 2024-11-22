@@ -1,16 +1,21 @@
-.header{
-    
+.header-bg{
+    padding-left: 40px;
 }
 
 .input-search{
-    width: 600px;
-    height: 50px;
+    width: 550px;
+    height: 45px;
     border: 1px solid transparent;
     border-radius:  5px;
     background-color: #F5F5F5;
 }
+
 .fas{
     padding: 10px;
+}
+
+.login-options{
+    gap: 10px;
 }
 .register{
     display: flex;
@@ -34,20 +39,13 @@
     background-color: #c92072a2;
 }
 
-
-
-
-
-
-
-
-
-
-
-.nav{
+.cart-toggle{
+    padding-left: 30px;
+}
+.menu-nav{
     padding-top: 20px;
-    padding-left: 50px;
-    display: flex;
+    padding-left: 80px;
+    gap: 20px;
 }
 
 .nav-container .menu-nav a {
@@ -61,23 +59,6 @@
     font-weight: bold;
 }
 
-.menu-nav{
-    display: flex;
-    width: 423px;
-    height: 29px;
-    top: 134px;
-    left: 100px;
-    gap: 40px;
-    border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
-    list-style: none;
-    cursor: pointer;
-}
-.link{
-    color: #474747;
-    cursor: pointer;
-}
-
 .carousel{
     background-color: #F5F5F5;
 }
@@ -87,19 +68,26 @@
     margin: 50 auto;
   }
 
-.title{
-    color: orange;
+.texts{
+    padding-left: 50px;
 }
 
-.button-offer{
-    width: 220px;
-    height: 48px;
+.title{
+    color: rgb(252, 174, 30);
+    margin-top: -80px;
+}
+
+.announcement {
+    font-size: 50px;
+}
+
+.button-see{
+    width: 170px;
+    height: 40px;
     border-radius: 8px;
-    border: none;
-    background: #c92071;
     color: #f5f5f5;
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
+    border: none;
     cursor: pointer;
 }
+    
+
