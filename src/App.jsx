@@ -7,6 +7,7 @@ import Oferta from "./components/Oferta"
 import ProductCard from "./components/ProductCard"
 import Carousel from "./components/Carousel"
 import Footer from "./components/Footer"
+import Product from "./components/Product"
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
       <Carousel/>
       <Card />
       <ProductCard />
+      <Product/>
       <Oferta/>
       <Footer/>
+
     </div>
 
   )

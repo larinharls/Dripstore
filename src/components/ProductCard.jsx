@@ -1,7 +1,6 @@
-import React from "react";
-import './ProductCard.css';
-import Product from "./Product";
-import './Product.module.css';
+import React from "react"
+import './ProductCard.css'
+import Product from "./Product"
 import "../components/ProductCard.css";
 
 function ProductCard() {
