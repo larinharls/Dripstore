@@ -28,7 +28,7 @@ const Header = () => {
                     </div>
                     <a className="cart-toggle" href="" title="cart">
                         <img src="/carrinho.png" alt="carrinho" width={15} height={15} />
-                        <span className="cart-quantily" data-cart="amount">0</span>
+                        <span className="cart-quantily" data-cart="amount"></span>
                     </a>
                 </div>
             </div>
