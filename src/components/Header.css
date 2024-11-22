@@ -1,5 +1,5 @@
-.header-bg{
-    padding-left: 40px;
+.header{
+    padding-top: 10px;
 }
 
 .input-search{
@@ -42,9 +42,12 @@
 .cart-toggle{
     padding-left: 30px;
 }
+
+.nav{
+    margin-top: -60px
+}
 .menu-nav{
-    padding-top: 20px;
-    padding-left: 80px;
+    padding-left: 110px;
     gap: 20px;
 }
 
