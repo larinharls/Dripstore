@@ -18,7 +18,6 @@ function App() {
       <ProductCard />
       <Oferta/>
       <Footer/>
-
     </div>
 
   )
