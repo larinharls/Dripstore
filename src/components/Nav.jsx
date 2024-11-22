@@ -3,16 +3,16 @@ import './Header.css'
 
 const Nav = () => {
     return (
-        <nav className="nav">
+        <div className="nav">
             <div className="nav-container">
                 <ul className="menu-nav d-flex list-unstyled">
-                    <li><a href="#" aria-label="Página Inicial" aria-current="page">Home</a></li>
-                    <li><a href="#" aria-label="Página de Produtos">Produtos</a></li>
-                    <li><a href="#" aria-label="Página Categorias de Produtos">Categorias</a></li>
-                    <li><a href="#" aria-label="Página Meus Pedidos">Meus pedidos</a></li>
+                    <li><a href="#" className="navegation">Home</a></li>
+                    <li><a href="#" className="navegation">Produtos</a></li>
+                    <li><a href="#" className="navegation">Categorias</a></li>
+                    <li><a href="#" className="navegation">Meus pedidos</a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
     )
 }
 
