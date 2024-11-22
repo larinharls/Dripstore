@@ -1,9 +1,12 @@
 
-    
-    .Card1 {
-      justify-content: space-between;
-      padding: 50px 0px 150px;
+    *{
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+    .Card1 {
+      display: flex;
+      padding: 50px 0px 150px;
+      justify-content: center;
+      }
 
     .linkComprar {
       color: #C92071;
@@ -34,7 +37,7 @@
       background-color: #D8E3F2;
       width: 405px;
       height: 250px;
-      border-radius: 20px;
+      border-radius: 10px;
       position: relative;
        overflow: hidden; /*para a imagem não vazar*/
       justify-content: center;
@@ -46,12 +49,12 @@
 
     .colecoes {
       color: #474747;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 24px;
       font-weight: 700;
     }
 
-    [class^="img"]{
+  
+    .img-card{
       z-index: 1;
       position: absolute;
     }
@@ -77,4 +80,5 @@
       left: 250px;
       top: 55px;
     }
+
 

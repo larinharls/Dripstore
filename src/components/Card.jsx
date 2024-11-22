@@ -11,19 +11,19 @@ function Card() {
                         <h5 className="desconto">30% OFF</h5>
                         <h2 className="text">Novo drop Supreme</h2>
                         <button className="linkComprar btn btn-light">Comprar</button>
-                        <img className="img-camisa" src="camisa.png" alt="" width={"350px"}/>
+                        <img className="img-camisa img-card" src="camisa.png" alt="" width={"350px"}/>
                     </div>
                     <div className="col col-4 Card">
                         <h5 className="desconto">30% OFF</h5>
                         <h2 className="text">Coleção Adidas</h2>
                         <button className="linkComprar btn btn-light">Comprar</button>
-                        <img className="img-tenis" src="tenis.png" alt="" width={"250px"}/>
+                        <img className="img-tenis img-card" src="tenis.png" alt="" width={"250px"}/>
                     </div>
                     <div className="col col-4 Card">
                         <h5 className="desconto">30% OFF</h5>
                         <h2 className="text">Novo Beats Bass</h2>
                         <button className="linkComprar btn btn-light">Comprar</button>
-                        <img className="img-fone" src="fone.png" alt="" width={"190px"}/>
+                        <img className="img-fone img-card" src="fone.png" alt="" width={"190px"}/>
                     </div>
                 </div>
             </div>
