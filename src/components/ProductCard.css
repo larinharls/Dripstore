@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+.ProdutosEmAlta {
+  color: #474747;
+  font-family: "Inter", sans-serif !important;
+  font-weight: 700;
+}
+
+.container{
+  margin:auto;
+  margin-bottom: 100px;
+}
+
+.VerTodos{
+  font-size: 20px;
+  color: #C92071;
+  font-family: "Inter", sans-serif !important;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+

@@ -1,19 +1,32 @@
 import React from "react"
-import styles from "../components/Product.module.css"
+import styles from "./Product.module.css"
+
 
 function Product(props) {
+
   return (
     <>
-      <div>
+      <div className={styles.conteudoCard}>
         <div>
           <img className={styles.img} src={props.imagem} alt="" />
         </div>
-        <div>
-          <h3>{props.modelo}</h3>
-          <h3>R$ {props.precoDesconto} R$ {props.preco}</h3>
-          
+        
+        <div className={styles.modelo}>
+            <h3>{props.modelo}</h3>
         </div>
+
+        <span className={styles.preco}>
+        R${props.preco} 
+        </span>
+
+        <span className={styles.precoDesconto}>
+        R${props.precoDesconto}
+        </span>
+
+
       </div>
+
+
     </>
   )
 
